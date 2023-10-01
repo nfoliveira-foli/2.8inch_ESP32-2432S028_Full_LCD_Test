@@ -98,6 +98,7 @@ Flash按钮	IO0			25		GPIO0, ADC2_CH1, TOUCH1, RTC_GPIO11, CLK_OUT1,EMAC_TX_CLK
 #include "esp_event.h"
 #include "esp_log.h"
 #include "esp_err.h"
+#include "esp_timer.h"
 
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"

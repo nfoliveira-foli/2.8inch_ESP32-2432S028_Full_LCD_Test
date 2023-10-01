@@ -14,7 +14,7 @@ extern "C" {
  *********************/
 #include <stdint.h>
 #include <stdbool.h>
-#include "lvgl/lvgl.h"
+#include "../../lvgl/lvgl/lvgl.h"
 
 #if defined (CONFIG_LVGL_TOUCH_CONTROLLER_XPT2046)
 #include "xpt2046.h"
